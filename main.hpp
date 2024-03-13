@@ -23,15 +23,16 @@ int getRandom(void)
         //end of my code
 }
 int getClosestMed(int rdnum1, int rdnum2, int rdnum3) {
+        // my code
         int least, mid;
         if (rdnum1 < rdnum2) {
                 if (rdnum1 < rdnum3) {
                         least = rdnum1
                         if (rdnum2 < rdnum3) {
-                                mid = rdnum2   
+                                mid = rdnum2;   
                         }
                         else {
-                                mid = rdnum3
+                                mid = rdnum3;
                         }
                 }
         }
@@ -39,10 +40,10 @@ int getClosestMed(int rdnum1, int rdnum2, int rdnum3) {
                 if (rdnum2 < rdnum3) {
                         least = rdnum2
                         if (rdnum1 < rdnum3) {
-                                mid = rdnum1   
+                                mid = rdnum1;   
                         }
                         else {
-                                mid = rdnum3
+                                mid = rdnum3;
                         }
                 }
         }
@@ -50,14 +51,15 @@ int getClosestMed(int rdnum1, int rdnum2, int rdnum3) {
                 if (rdnum3 < rdnum2) {
                         least = rdnum3
                         if (rdnum1 < rdnum2) {
-                                mid = rdnum1   
+                                mid = rdnum1;   
                         }
                         else {
-                                mid = rdnum2
+                                mid = rdnum2;
                         }
                 }
         }
 
         return mid;
+        // end of my code
 
 }
