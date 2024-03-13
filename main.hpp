@@ -27,7 +27,7 @@ int getClosestMed(int rdnum1, int rdnum2, int rdnum3) {
         int least, mid;
         if (rdnum1 < rdnum2) {
                 if (rdnum1 < rdnum3) {
-                        least = rdnum1
+                        least = rdnum1;
                         if (rdnum2 < rdnum3) {
                                 mid = rdnum2;   
                         }
@@ -38,7 +38,7 @@ int getClosestMed(int rdnum1, int rdnum2, int rdnum3) {
         }
         if (rdnum2 < rdnum1) {
                 if (rdnum2 < rdnum3) {
-                        least = rdnum2
+                        least = rdnum2;
                         if (rdnum1 < rdnum3) {
                                 mid = rdnum1;   
                         }
@@ -49,7 +49,7 @@ int getClosestMed(int rdnum1, int rdnum2, int rdnum3) {
         }
          if (rdnum3 < rdnum1) {
                 if (rdnum3 < rdnum2) {
-                        least = rdnum3
+                        least = rdnum3;
                         if (rdnum1 < rdnum2) {
                                 mid = rdnum1;   
                         }
